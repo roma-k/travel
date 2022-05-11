@@ -160,20 +160,13 @@ img {
   margin-bottom: 9px;
 }
 
-/* .radio-hotel:not(:checked) + .radio-bar-label,
-.radio-flight:not(:checked) + .radio-bar-label,
-.radio-car:not(:checked) + .radio-bar-label,
-.radio-ship:not(:checked) + .radio-bar-label {
+input[type="radio"] ~ label{
   background-color: var(--white);
 }
 
-.radio-hotel:checked + .radio-bar-label,
-.radio-flight:checked + .radio-bar-label,
-.radio-car:checked + .radio-bar-label,
-.radio-ship:checked + .radio-bar-label {
+input[type="radio"]:checked + label{
   background-color: var(--yellow);
-} */
-
+}
 
 .radio-bar-label {
   padding: 10px 27px 10px 50px;
@@ -189,15 +182,9 @@ img {
   cursor: pointer;
 }
 
-.checked {
-  background-color: var(--yellow);
-}
-
-
 .radio-bar-label:hover {
   background-color: var(--yellow);
 }
-
 
 
 .hotel-label::before {

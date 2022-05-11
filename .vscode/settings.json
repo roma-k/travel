@@ -1,0 +1,14 @@
+{
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    }
+
+    {
+        "vscode_custom_css.imports": [
+          "/home/roman/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css",
+          "/home/roman/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.css"
+          ]
+      }
+}

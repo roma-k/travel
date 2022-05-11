@@ -1,8 +1,17 @@
-let Labels = document.querySelectorAll('.radio-bar-label');
-console.log(Labels);
+// let labels = document.querySelectorAll('.radio-bar-label');
+// let inputRadio = document.querySelectorAll('.form-radio');
+// console.log(inputRadio[1].checked);
+// for (let label of labels){
+//     console.log(label);
 
-for(let label of Labels) {
-    label.onclick = function() {
-        label.classList.add('.checked');
-    };
-}
+//     label.addEventListener('click', function(evt){
+//         label.classList.toggle('checked');
+//     })
+// }
+
+// for (let label of labels){
+//     if (.checked){
+
+//     }
+
+// }
