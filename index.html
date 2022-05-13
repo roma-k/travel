@@ -1,108 +1,194 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/main.css">
-    <!-- <link rel="stylesheet" href="style/outline.css"> -->
-    <title>Document</title>
-</head>
-<body class="body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Travel</title>
+  </head>
+  <body class="body">
     <header class="main-header">
-        <div class="logo"><a href="#"><img src="img/Explorelogo.svg" alt="Explore" width="133" height="48"></a></div>
-        <nav class="site-nav">
-            <ul class="nav-list">
-                <li class="nav-item nav-active">Home</li>
-                <li class="nav-item"><a href="#">Tours</a></li>
-                <li class="nav-item"><a href="#">Hotel</a></li>
-                <li class="nav-item"><a href="#">Gallery</a></li>
-                <li class="nav-item"><a href="#">Pages</a></li>
-                <li class="nav-item"><a href="#">Blog</a></li>
-                <li class="nav-item"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="user-panel">
-            <button class="login-btn" type="button">Login</button>
-            <a href="#" class="yellow-btn btn-hover">Sign UP</a>
-        </div>
+      <div class="logo">
+        <a href="#"
+          ><img src="img/Explorelogo.svg" alt="Explore" width="133" height="48"
+        /></a>
+      </div>
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li class="nav-item nav-active">Home</li>
+          <li class="nav-item"><a href="#">Tours</a></li>
+          <li class="nav-item"><a href="#">Hotel</a></li>
+          <li class="nav-item"><a href="#">Gallery</a></li>
+          <li class="nav-item"><a href="#">Pages</a></li>
+          <li class="nav-item"><a href="#">Blog</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="user-panel">
+        <button class="login-btn" type="button">Login</button>
+        <a href="#" class="yellow-btn btn-hover">Sign UP</a>
+      </div>
     </header>
     <main class="main">
-        <section class="index-banner">
-            <p class="banner-slogan">It’s a Big World <br> 
-                Out There, Go <br>
-                Explore</p>
-            <p class="banner-text">Conveniently customize proactive web services for leveraged without 
-                continualliery aggregate fricctionle ou wellies richard.and very customize  continually.</p>
-            <div class="banner-btn-wrapper">
-                <a href="#" class="yellow-btn btn-hover">Get Exploration </a>
-                <a href="" class="white-btn btn-hover-white">Read More</a>
-            </div>
-        </section>
-        <section class="book-form">
-            <form action="" method="get">
-                <div class="form-radoi-wrapper">
-                    <input class="form-radio radio-hotel hidden" type="radio" name="tab" id="Hotel" checked>
-                    <label for="Hotel" class="hotel-label radio-bar-label ">
-                        <span class="radio-label hotel-label-text">Hotel</span>
-                    </label>
-                    <input class="form-radio radio-flight hidden" type="radio" name="tab" id="Flight">
-                    <label for="Flight" class="flight-label radio-bar-label">
-                        <span class="radio-label flight-label-text">Flight</span>
-                    </label>
-                    <input class="form-radio radio-car hidden" type="radio" name="tab" id="Car">
-                    <label for="Car" class="car-label radio-bar-label">
-                        <span class="radio-label car-label-text">Car</span>
-                    </label>
-                    <input class="form-radio radio-ship hidden" type="radio" name="tab" id="Ship">
-                    <label for="Ship" class="ship-label radio-bar-label">
-                        <span class="radio-label ship-label-text">Ship</span>
-                    </label>
-                </div>
-                <div class="input-parametrs-wrapper">
-                    <label for="DestinationInput" class="parametrs-label"><span>Your Destination</span><input class="destination-input" id="DestinationInput" type="search"></label>
-                    <label for="CheckIn" class="parametrs-label"><span>Check In</span><input class="check-in" id="CheckIn" type="date"></label>
-                    <label for="CheckOut" class="parametrs-label"><span>Check Out</span><input class="check-out" id="CheckOut" type="date"></label>
-                    <label for="Child" class="parametrs-label"><span>Child</span><input class="child" id="Child" type="number"></label>
-                    <label for="Adult" class="parametrs-label"><span>Adult</span><input class="adult" id="Adult" type="number"></label>
-                    <input class="submit-btn btn-hover" id="SubmitBtn" type="submit" value="Book Now">
-                </div>
-            </form>
-        </section>
-        <section class="about-block">
-            <div class="about-wrapper-left">
-                <img src="img/BG2.png" alt="Два человека сидят у горного озера" width="410" height="520">
-                <img class="img-absolut" src="img/BG3.png" alt="Убыбающийся путешественник с билетами">
-            </div>
-            <div class="about-wrapper-right">
-                <h2 class="hidden">About us</h2>
-                    <img src="img/About us.svg" alt="About Us" width="91" height="16">
-                    <p class="about-title">World Best Travel Agency Company Since 2008.</p>
-                    <p class="text-grey">Continually productize compelling quality for packed with  elated
-                        productize compelling quality for packed in  with all elated Them
-                        Setting up to website and creating pages.
-                        </p>
-                    <ul class="best-us-list">
-                        <li class="best-us-item">We providing compe quality for packed with elated different.</li>
-                        <li class="best-us-item">We are one of compelling quality for packed with leading.</li>
-                        <li class="best-us-item">Learn how compelling quality for packed with  elated grow.</li>
-                    </ul>
-                    <div class="ststistic">
-                        <ul class="statistic-list">
-                            <li class="statistic-item"> <span class="statistic-item-top">20+</span> <br><span class="statistic-item-bottom text-grey">Year Experience</span> </li>
-                            <li class="statistic-item"><span class="statistic-item-top">250+</span> <br><span class="statistic-item-bottom text-grey">Destination Collaboratin</span></li>
-                            <li class="statistic-item"><span class="statistic-item-top">170K+</span> <br><span class="statistic-item-bottom text-grey">Happy Customers</span></li>
-                        </ul>
-                    </div>
-                    <a href="#" class="yellow-btn read-more-btn btn-hover">Read More</a>
-            </div>
-        </section>
+      <section class="index-banner">
+        <p class="banner-slogan">
+          It’s a Big World <br />
+          Out There, Go <br />
+          Explore
+        </p>
+        <p class="banner-text">
+          Conveniently customize proactive web services for leveraged without
+          continualliery aggregate fricctionle ou wellies richard.and very
+          customize continually.
+        </p>
+        <div class="banner-btn-wrapper">
+          <a href="#" class="yellow-btn btn-hover">Get Exploration </a>
+          <a href="" class="white-btn btn-hover-white">Read More</a>
+        </div>
+      </section>
+      <section class="book-form">
+        <form action="" method="get">
+          <div class="form-radoi-wrapper">
+            <input
+              class="form-radio radio-hotel hidden"
+              type="radio"
+              name="tab"
+              id="Hotel"
+              checked
+            />
+            <label for="Hotel" class="hotel-label radio-bar-label">
+              <span class="radio-label hotel-label-text">Hotel</span>
+            </label>
+            <input
+              class="form-radio radio-flight hidden"
+              type="radio"
+              name="tab"
+              id="Flight"
+            />
+            <label for="Flight" class="flight-label radio-bar-label">
+              <span class="radio-label flight-label-text">Flight</span>
+            </label>
+            <input
+              class="form-radio radio-car hidden"
+              type="radio"
+              name="tab"
+              id="Car"
+            />
+            <label for="Car" class="car-label radio-bar-label">
+              <span class="radio-label car-label-text">Car</span>
+            </label>
+            <input
+              class="form-radio radio-ship hidden"
+              type="radio"
+              name="tab"
+              id="Ship"
+            />
+            <label for="Ship" class="ship-label radio-bar-label">
+              <span class="radio-label ship-label-text">Ship</span>
+            </label>
+          </div>
+          <div class="input-parametrs-wrapper">
+            <label for="DestinationInput" class="parametrs-label"
+              ><span>Your Destination</span
+              ><input
+                class="destination-input"
+                id="DestinationInput"
+                type="search"
+            /></label>
+            <label for="CheckIn" class="parametrs-label"
+              ><span>Check In</span
+              ><input class="check-in" id="CheckIn" type="date"
+            /></label>
+            <label for="CheckOut" class="parametrs-label"
+              ><span>Check Out</span
+              ><input class="check-out" id="CheckOut" type="date"
+            /></label>
+            <label for="Child" class="parametrs-label"
+              ><span>Child</span><input class="child" id="Child" type="number"
+            /></label>
+            <label for="Adult" class="parametrs-label"
+              ><span>Adult</span><input class="adult" id="Adult" type="number"
+            /></label>
+            <input
+              class="submit-btn btn-hover"
+              id="SubmitBtn"
+              type="submit"
+              value="Book Now"
+            />
+          </div>
+        </form>
+      </section>
+      <section class="about-block">
+        <div class="about-wrapper-left">
+          <img
+            src="img/BG2.png"
+            alt="Два человека сидят у горного озера"
+            width="410"
+            height="520"
+          />
+          <img
+            class="img-absolut"
+            src="img/BG3.png"
+            alt="Убыбающийся путешественник с билетами"
+          />
+        </div>
+        <div class="about-wrapper-right">
+          <h2 class="hidden">About us</h2>
+          <img src="img/About us.svg" alt="About Us" width="91" height="16" />
+          <p class="about-title">
+            World Best Travel Agency Company Since 2008.
+          </p>
+          <p class="text-grey">
+            Continually productize compelling quality for packed with elated
+            productize compelling quality for packed in with all elated Them
+            Setting up to website and creating pages.
+          </p>
+          <ul class="best-us-list">
+            <li class="best-us-item">
+              We providing compe quality for packed with elated different.
+            </li>
+            <li class="best-us-item">
+              We are one of compelling quality for packed with leading.
+            </li>
+            <li class="best-us-item">
+              Learn how compelling quality for packed with elated grow.
+            </li>
+          </ul>
+          <div class="ststistic">
+            <ul class="statistic-list">
+              <li class="statistic-item">
+                <span class="statistic-item-top">20+</span> <br /><span
+                  class="statistic-item-bottom text-grey"
+                  >Year Experience</span
+                >
+              </li>
+              <li class="statistic-item">
+                <span class="statistic-item-top">250+</span> <br /><span
+                  class="statistic-item-bottom text-grey"
+                  >Destination Collaboratin</span
+                >
+              </li>
+              <li class="statistic-item">
+                <span class="statistic-item-top">170K+</span> <br /><span
+                  class="statistic-item-bottom text-grey"
+                  >Happy Customers</span
+                >
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="yellow-btn read-more-btn btn-hover">Read More</a>
+        </div>
+      </section>
     </main>
     <footer class="footer"></footer>
-    <script src="script/main.js"></script>    
-</body>
+    <script src="script/main.js"></script>
+  </body>
 </html>
