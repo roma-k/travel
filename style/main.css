@@ -2,8 +2,12 @@
 :root {
   --black: #1F3347;
   --white: #ffffff;
+  --white-shadow: #E9E9E9;
   --yellow: #FFC814;
-  --grey: #9DA1B4;
+  --gray: #9DA1B4;
+  --hovered-yellow: #FBC100;
+  --active-yellow: #D8A500;
+
 }
 
 *,
@@ -47,6 +51,11 @@ img {
   color: var(--white);
 }
 
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
   list-style: none;
   padding: 0;
@@ -62,6 +71,15 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: var(--white);
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: var(--gray);
+}
+
+.nav-item a:active {
+  color: black;
 }
 
 .nav-active {
@@ -90,6 +108,25 @@ img {
   margin: 0;
   cursor: pointer;
 }
+
+.btn-hover:hover,
+.btn-hover:focus { 
+  background-color: var(--hovered-yellow);
+}
+
+.btn-hover:active {
+  background-color: var(--active-yellow);
+}
+
+.btn-hover-white:hover,
+.btn-hover-white:focus {
+  background-color: var(--hovered-yellow);
+}
+
+.btn-hover-white:active {
+  background-color: var(--active-yellow);
+}
+
 
 .yellow-btn {
   display: inline-block;
@@ -271,6 +308,12 @@ input[type="radio"]:checked + label{
   min-width: 160px;
   height: 56px;
   cursor: pointer;
+  color: #1F3347;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
 }
 
 .about-block {
