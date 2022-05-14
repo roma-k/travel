@@ -241,7 +241,7 @@ input[type="radio"]:checked + label {
   display: block;
   width: 28px;
   height: 28px;
-  background-image: url(../img/Flight\ 1.svg);
+  background-image: url(../img/Flight1.svg);
   position: absolute;
   top: 9px;
   left: 11px;
@@ -252,7 +252,7 @@ input[type="radio"]:checked + label {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../img/car\ 1.svg);
+  background-image: url(../img/car1.svg);
   position: absolute;
   top: 8px;
   left: 10px;
@@ -263,7 +263,7 @@ input[type="radio"]:checked + label {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../img/Ship\ 1.svg);
+  background-image: url(../img/Ship1.svg);
   position: absolute;
   top: 8px;
   left: 10px;
