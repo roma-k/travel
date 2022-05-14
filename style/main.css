@@ -230,7 +230,7 @@ input[type="radio"]:checked + label {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../img/hote.svg);
+  background-image: url(../img/hotel.svg);
   position: absolute;
   top: 8px;
   left: 10px;
@@ -241,7 +241,7 @@ input[type="radio"]:checked + label {
   display: block;
   width: 28px;
   height: 28px;
-  background-image: url(../img/Flight1svg);
+  background-image: url(../img/Flight.svg);
   position: absolute;
   top: 9px;
   left: 11px;
