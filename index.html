@@ -56,7 +56,7 @@
       </section>
       <section class="book-form">
         <form action="" method="get">
-          <div class="form-radoi-wrapper">
+          <div class="form-radio-wrapper">
             <input
               class="form-radio radio-hotel hidden"
               type="radio"
@@ -96,7 +96,37 @@
             </label>
           </div>
           <div class="input-parametrs-wrapper">
-            <label for="DestinationInput" class="parametrs-label"
+            <div class="hotel-box">
+              <label for="DestinationInput" class="parametrs-label"
+                ><span>Your Destination</span
+                ><input
+                  class="destination-input"
+                  id="DestinationInput"
+                  type="search"
+              /></label>
+              <label for="CheckIn" class="parametrs-label"
+                ><span>Check In</span
+                ><input class="check-in" id="CheckIn" type="date"
+              /></label>
+              <label for="CheckOut" class="parametrs-label"
+                ><span>Check Out</span
+                ><input class="check-out" id="CheckOut" type="date"
+              /></label>
+              <label for="Child" class="parametrs-label"
+                ><span>Child</span><input class="child" id="Child" type="number"
+              /></label>
+              <label for="Adult" class="parametrs-label"
+                ><span>Adult</span><input class="adult" id="Adult" type="number"
+              /></label>
+              <input
+                class="submit-btn btn-hover"
+                id="SubmitBtn"
+                type="submit"
+                value="Book Now"
+              />
+            </div>
+            <div class="flight-box">
+              <label for="DestinationInput" class="parametrs-label"
               ><span>Your Destination</span
               ><input
                 class="destination-input"
@@ -123,6 +153,7 @@
               type="submit"
               value="Book Now"
             />
+            </div>
           </div>
         </form>
       </section>

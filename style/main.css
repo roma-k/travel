@@ -195,7 +195,7 @@ img {
   margin: 0 auto;
 }
 
-.form-radoi-wrapper {
+.form-radio-wrapper {
   margin-bottom: 9px;
 }
 
@@ -231,6 +231,7 @@ input[type="radio"]:checked + label {
   width: 30px;
   height: 30px;
   background-image: url(../img/hotel.svg);
+  background-size: 30px 30px;
   position: absolute;
   top: 8px;
   left: 10px;
@@ -242,6 +243,7 @@ input[type="radio"]:checked + label {
   width: 28px;
   height: 28px;
   background-image: url(../img/Flight.svg);
+  background-size: 28px 28px;
   position: absolute;
   top: 9px;
   left: 11px;
@@ -253,6 +255,7 @@ input[type="radio"]:checked + label {
   width: 30px;
   height: 30px;
   background-image: url(../img/car.svg);
+  background-size: 30px 30px;
   position: absolute;
   top: 8px;
   left: 10px;
@@ -264,6 +267,7 @@ input[type="radio"]:checked + label {
   width: 30px;
   height: 30px;
   background-image: url(../img/Ship.svg);
+  background-size: 30px 30px;
   position: absolute;
   top: 8px;
   left: 10px;
@@ -277,13 +281,21 @@ input[type="radio"]:checked + label {
   font-size: 16px;
   line-height: 24px;
   color: var(--black);
+  width: 1320px;
+  height: 160px;
+  box-shadow: 0px 6px 24px #e4e2ee;
+  overflow: hidden;
+}
+
+.hotel-box,
+.flight-box,
+.car-box,
+.ship-box {
   display: grid;
-  min-width: 1320px;
+  justify-content: space-between;
   grid-template-columns: 170px 170px 170px 170px 170px 160px;
   grid-template-rows: 1fr;
   align-items: flex-end;
-  justify-content: space-between;
-  box-shadow: 0px 6px 24px #e4e2ee;
 }
 
 .parametrs-label input {
