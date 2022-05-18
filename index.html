@@ -56,45 +56,49 @@
       </section>
       <section class="book-form">
         <form action="" method="get">
-          <div class="form-radio-wrapper">
+          
             <input
               class="form-radio radio-hotel hidden"
+              id="hotel"
               type="radio"
               name="tab"
-              id="Hotel"
+              value="hotel"
               checked
             />
-            <label for="Hotel" class="hotel-label radio-bar-label">
+            <label for="hotel" class="hotel-label radio-bar-label">
               <span class="radio-label hotel-label-text">Hotel</span>
             </label>
             <input
               class="form-radio radio-flight hidden"
+              id="flight"
               type="radio"
               name="tab"
-              id="Flight"
+              value="flight"
             />
-            <label for="Flight" class="flight-label radio-bar-label">
+            <label for="flight" class="flight-label radio-bar-label">
               <span class="radio-label flight-label-text">Flight</span>
             </label>
             <input
               class="form-radio radio-car hidden"
+              id="car"
               type="radio"
               name="tab"
-              id="Car"
+              value="car"
             />
-            <label for="Car" class="car-label radio-bar-label">
+            <label for="car" class="car-label radio-bar-label">
               <span class="radio-label car-label-text">Car</span>
             </label>
             <input
               class="form-radio radio-ship hidden"
+              id="ship"
               type="radio"
               name="tab"
-              id="Ship"
+              value="ship"
             />
-            <label for="Ship" class="ship-label radio-bar-label">
+            <label for="ship" class="ship-label radio-bar-label">
               <span class="radio-label ship-label-text">Ship</span>
             </label>
-          </div>
+          
           <div class="input-parametrs-wrapper">
             <div class="hotel-box">
               <label for="DestinationInput" class="parametrs-label"
@@ -113,10 +117,12 @@
                 ><input class="check-out" id="CheckOut" type="date"
               /></label>
               <label for="Child" class="parametrs-label"
-                ><span>Child</span><input class="child" id="Child" type="number"
+                ><span>Child</span
+                ><input class="child" id="Child" type="number"
               /></label>
               <label for="Adult" class="parametrs-label"
-                ><span>Adult</span><input class="adult" id="Adult" type="number"
+                ><span>Adult</span
+                ><input class="adult" id="Adult" type="number"
               /></label>
               <input
                 class="submit-btn btn-hover"
@@ -127,32 +133,96 @@
             </div>
             <div class="flight-box">
               <label for="DestinationInput" class="parametrs-label"
-              ><span>Your Destination</span
-              ><input
-                class="destination-input"
-                id="DestinationInput"
-                type="search"
-            /></label>
-            <label for="CheckIn" class="parametrs-label"
-              ><span>Check In</span
-              ><input class="check-in" id="CheckIn" type="date"
-            /></label>
-            <label for="CheckOut" class="parametrs-label"
-              ><span>Check Out</span
-              ><input class="check-out" id="CheckOut" type="date"
-            /></label>
-            <label for="Child" class="parametrs-label"
-              ><span>Child</span><input class="child" id="Child" type="number"
-            /></label>
-            <label for="Adult" class="parametrs-label"
-              ><span>Adult</span><input class="adult" id="Adult" type="number"
-            /></label>
-            <input
-              class="submit-btn btn-hover"
-              id="SubmitBtn"
-              type="submit"
-              value="Book Now"
-            />
+                ><span>Lorem ipsum dolor</span
+                ><input
+                  class="destination-input"
+                  id="DestinationInput"
+                  type="search"
+              /></label>
+              <label for="CheckIn" class="parametrs-label"
+                ><span>Officiaium!</span
+                ><input class="check-in" id="CheckIn" type="date"
+              /></label>
+              <label for="CheckOut" class="parametrs-label"
+                ><span>Trans Out</span
+                ><input class="check-out" id="CheckOut" type="date"
+              /></label>
+              <label for="Child" class="parametrs-label"
+                ><span>Child</span
+                ><input class="child" id="Child" type="number"
+              /></label>
+              <label for="Adult" class="parametrs-label"
+                ><span>Adult</span
+                ><input class="adult" id="Adult" type="number"
+              /></label>
+              <input
+                class="submit-btn btn-hover"
+                id="SubmitBtn"
+                type="submit"
+                value="Book Now"
+              />
+            </div>
+            <div class="car-box">
+              <label for="DestinationInput" class="parametrs-label"
+                ><span>Date car</span
+                ><input
+                  class="destination-input"
+                  id="DestinationInput"
+                  type="search"
+              /></label>
+              <label for="CheckIn" class="parametrs-label"
+                ><span>Date end</span
+                ><input class="check-in" id="CheckIn" type="date"
+              /></label>
+              <label for="CheckOut" class="parametrs-label"
+                ><span>Out</span
+                ><input class="check-out" id="CheckOut" type="date"
+              /></label>
+              <label for="Child" class="parametrs-label"
+                ><span>Child</span
+                ><input class="child" id="Child" type="number"
+              /></label>
+              <label for="Adult" class="parametrs-label"
+                ><span>Adult</span
+                ><input class="adult" id="Adult" type="number"
+              /></label>
+              <input
+                class="submit-btn btn-hover"
+                id="SubmitBtn"
+                type="submit"
+                value="Book Now"
+              />
+            </div>
+            <div class="ship-box">
+              <label for="DestinationInput" class="parametrs-label"
+                ><span>Lorem ipsum dolor</span
+                ><input
+                  class="destination-input"
+                  id="DestinationInput"
+                  type="search"
+              /></label>
+              <label for="CheckIn" class="parametrs-label"
+                ><span>Officiaium!</span
+                ><input class="check-in" id="CheckIn" type="date"
+              /></label>
+              <label for="CheckOut" class="parametrs-label"
+                ><span>Trans Out</span
+                ><input class="check-out" id="CheckOut" type="date"
+              /></label>
+              <label for="Child" class="parametrs-label"
+                ><span>Child</span
+                ><input class="child" id="Child" type="number"
+              /></label>
+              <label for="Adult" class="parametrs-label"
+                ><span>Adult</span
+                ><input class="adult" id="Adult" type="number"
+              /></label>
+              <input
+                class="submit-btn btn-hover"
+                id="SubmitBtn"
+                type="submit"
+                value="Book Now"
+              />
             </div>
           </div>
         </form>
