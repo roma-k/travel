@@ -16,8 +16,6 @@
 
 html {
   height: 100%;
-  background-image: url(../img/BG.jpg);
-  background-repeat: no-repeat;
 }
 
 a {
@@ -29,8 +27,17 @@ img {
   height: auto;
 }
 
+.page{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
 .body {
-  max-width: 1920px;
+  max-width: 1320px;
+  margin: 0 auto;
+  background-image: url(../img/BG.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .main-header {
@@ -445,6 +452,66 @@ input[type="radio"]:checked + label {
 
 .read-more-btn {
   padding: 18px;
+}
+
+
+/* !===========================================/
+* ==================== MEDIA ==================/
+!============================================= */
+
+@media (max-width: 1350px) {
+  .main-header{
+    max-width: 1000px;
+  }
+
+  .nav-list {
+    margin-right: 25px;
+  }
+
+  .nav-item{
+    margin-left: 25px;
+  }
+
+  .main{
+    min-width: 1000px;
+  }
+
+  .index-banner {
+    width: 1000px;
+    margin: 0 auto 175px auto;
+  }
+
+  .page-form{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .hotel-box,
+  .flight-box,
+  .car-box,
+  .ship-box{
+    display: grid;
+    max-width: 940px;
+    justify-content: space-between;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .input-parametrs-wrapper{
+    max-width: 1000px;
+    height: 250px;
+  }
+
+  .about-block {
+    margin: -19px auto;
+    padding: 96px 0;
+    max-width: 1000px;
+  }
+
+  .about-block::before{
+    font-size: 327px;
+    left: -10px;
+  }
+
 }
 
 .hidden {
