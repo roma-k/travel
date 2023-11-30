@@ -33,7 +33,7 @@
         </ul>
       </nav>
       <div class="user-panel">
-        <button class="login-btn" type="button">Login</button>
+        <button class="login-btn" id="login_btn" type="button">Login</button>
         <a href="#" class="yellow-btn btn-hover">Sign UP</a>
       </div>
     </header>
@@ -290,20 +290,24 @@
       </section>
     </main>
     <footer class="footer"></footer>
-    // TODO popuphtml
-    <div class="popup-sign">
-      <div class="popup-wrapper">
-        <div class="popup-close"><img src="img/icon-close.png" class="popuo-close-icon" alt="close" width="25" height="25"></div>
-        <div class="popup-content-wrapper">
-          <p class="text-grey">Authorization</p>
-          <label for="user-name"><span>Username</span>
-            <input type="text">
-          </label>
-          <label for="user-password"><span>Password</span>
-            <input type="password">
-          </label>
-          <button class="yellow-btn">Sign In</button>
-          <a href="#">Forgot password?</a>
+    <div class="popup hidden" id="popup">
+      <div class="shadow"></div>
+      <div class="popup-sign">
+        <div class="popup-wrapper">
+          <div class="popup-close" id="close_popup"><img src="img/icon-close.png" class="popuo-close-icon" alt="close" width="25" height="25"></div>
+          <div class="popup-content-wrapper">
+            <p class="text-grey login-header">Authorization</p>
+            <div class="popup-input-wrapper">
+              <label for="user_name"><span>Username</span>
+                <input type="text" name="user" id="user_name">
+              </label>
+              <label for="user_password"><span>Password</span>
+                <input type="password" id="user_password">
+              </label>
+            </div>
+            <button class="yellow-btn">Sign In</button>
+            <a href="#">Forgot password?</a>
+          </div>
         </div>
       </div>
     </div>
