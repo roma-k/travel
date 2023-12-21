@@ -5,6 +5,8 @@ const loginBtn = document.getElementById('login_btn'),
 
 loginBtn.onclick = () => {
     popup.classList.remove('hidden');
+    // TODO scrollFix!!!!!!!!!!!!!!!!!
+    document.html.style.position= 'fixed';
 }
 
 closeBtn.onclick = () => {
