@@ -290,7 +290,7 @@
       </section>
     </main>
     <footer class="footer"></footer>
-    <div class="popup hidden" id="popup">
+    <!-- <div class="popup hidden" id="popup">
       <div class="shadow"></div>
       <div class="popup-sign">
         <div class="popup-wrapper">
@@ -310,7 +310,30 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    <!-- popup через тег dialog -->
+//FIXME - dialog popup
+    <dialog class="popup popup-sign" id="dialog">
+        <div class="popup-wrapper">
+          <div class="popup-close" id="close_popup"><img src="img/icon-close.png" class="popuo-close-icon" alt="close" width="25" height="25"></div>
+          <div class="popup-content-wrapper">
+            <p class="text-grey login-header">Authorization</p>
+            <div class="popup-input-wrapper">
+              <label for="user_name"><span>Username</span>
+                <input type="text" name="user" id="user_name">
+              </label>
+              <label for="user_password"><span>Password</span>
+                <input type="password" id="user_password">
+              </label>
+            </div>
+            <button class="yellow-btn">Sign In</button>
+            <a href="#">Forgot password?</a>
+          </div>
+        </div>
+      
+    </dialog>
+
     <script src="script/main.js"></script>
   </body>
 </html>

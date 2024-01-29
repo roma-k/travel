@@ -532,18 +532,12 @@ input[type="radio"]:checked + label {
     color: var(--black);
 }
 
-.shadow{
-  position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    z-index: 99;
-    width: 100%;
-    height: 100vh;
-    border: 1px solid black;
-    background-color: #fff;
-    opacity: 0.4;
+dialog::backdrop {
+  background-color: #fff;
+  opacity: 0.4;
+
 }
+
 
 /* !===========================================/
 * ==================== MEDIA ==================/
